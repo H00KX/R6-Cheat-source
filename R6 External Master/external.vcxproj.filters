@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Driver\Driver.cpp" />
+    <ClCompile Include="Gui\Gui.cpp" />
+    <ClCompile Include="Driver\server_shared.h" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Gui\ImGui\imgui.cpp" />
+    <ClCompile Include="Gui\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Gui\ImGui\imgui_impl_dx12.cpp" />
+    <ClCompile Include="Gui\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Gui\ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="Gui\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="fonts.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver\Driver.h" />
+    <ClInclude Include="Gui\Gui.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Threads.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\Offsets.h" />
+    <ClInclude Include="Game\Vectors.h" />
+    <ClInclude Include="ConsoleColour.h" />
+    <ClInclude Include="Gui\ImGui\imconfig.h" />
+    <ClInclude Include="Gui\ImGui\imgui.h" />
+    <ClInclude Include="Gui\ImGui\imgui_impl_dx12.h" />
+    <ClInclude Include="Gui\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="Gui\ImGui\imgui_internal.h" />
+    <ClInclude Include="Gui\ImGui\imgui_stdlib.h" />
+    <ClInclude Include="Gui\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Gui\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Gui\ImGui\imstb_truetype.h" />
+    <ClInclude Include="fonts.h" />
+    <ClInclude Include="Game\Camera.hpp" />
+  </ItemGroup>
+</Project>
